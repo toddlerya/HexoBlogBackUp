@@ -3,12 +3,12 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
-subtitle: ''
-description: ''
-keywords:
-author: John Doe
-language: en
+title: 不期速成日拱一卒
+subtitle: '但行好事，莫问前程'
+description: 'witness me.'
+keywords: 不期速成日拱一卒,独立,博客,程序员,个人,思考,读书,笔记,技术,分享
+author: toddlerya
+language: zh-CN
 timezone: ''
 
 # URL
@@ -46,8 +46,8 @@ future: true
 highlight:
   enable: true
   line_number: true
-  auto_detect: false
-  tab_replace: ''
+  auto_detect: true
+  tab_replace: '4'
 
 # Home page setting
 # path: Root path for your blogs index page. (default = '')
@@ -61,7 +61,7 @@ index_generator:
 # Category & Tag
 default_category: uncategorized
 category_map:
-tag_map:
+tag_map: 
 
 # Metadata elements
 ## https://developer.mozilla.org/en-US/docs/Web/HTML/Element/meta
@@ -91,8 +91,11 @@ ignore:
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
 theme: next
+# theme_config:
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
-  type: ''
+  type: git
+  repo: https://github.com/toddlerya/toddlerya.github.io.git
+  branch: master
